@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint2": "next lint",
+    "lint": "eslint src"
   },
   "dependencies": {
     "next": "12.2.0",
@@ -20,8 +21,11 @@
     "@typescript-eslint/parser": "^5.30.0",
     "eslint": "8.18.0",
     "eslint-config-next": "12.2.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "2.7.1",
     "typescript": "^4.7.4"
   }
 }
