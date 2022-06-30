@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint2": "next lint",
-    "lint": "eslint src --max-warnings=0"
+    "lint": "eslint src --max-warnings=0",
+    "postinstall": "husky install"
   },
   "lint-staged":{
     "src/**/*": [
@@ -34,10 +35,5 @@
     "lint-staged": "^13.0.3",
     "prettier": "2.7.1",
     "typescript": "^4.7.4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
