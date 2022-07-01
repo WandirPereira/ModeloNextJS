@@ -9,11 +9,12 @@
     "lint2": "next lint",
     "lint": "eslint src --max-warnings=0",
     "postinstall": "husky install",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "yarn test --watch"
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn lint --fix"
+      "yarn lint --fix", "yarn test --bail"
     ]
   },
   "dependencies": {
