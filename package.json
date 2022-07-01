@@ -13,13 +13,13 @@
     "test:watch": "yarn test --watch"
   },
   "lint-staged": {
-    "src/**/*.ts?(x)": [
-      "yarn lint --fix"
+    "src/**/*": [
+      "yarn lint --fix", "yarn test --bail"
     ]
   },
   "dependencies": {
     "jshint": "^2.13.4",
-    "lint-staged": "12.3.8",
+    "lint-staged": "^13.0.3",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
