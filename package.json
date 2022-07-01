@@ -13,7 +13,7 @@
     "test:watch": "yarn test --watch"
   },
   "lint-staged": {
-    "src/**/*": [
+    "src/**/*.ts?(x)": [
       "yarn lint --fix"
     ]
   },
