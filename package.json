@@ -10,11 +10,6 @@
     "lint": "eslint src --max-warnings=0",
     "postinstall": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged":{
     "src/**/*": [
       "yarn lint --fix"
