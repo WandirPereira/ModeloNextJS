@@ -36,7 +36,7 @@ public/sw.js
 public/workbox-*.js
 
 # storybook
-storybook-static
+storybook-static/*
 
 # vercel
 .vercel
